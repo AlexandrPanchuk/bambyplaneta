@@ -1,0 +1,135 @@
+
+
+#container_product {
+    /*width:580px;*/
+    padding:10px;
+    margin:0 auto;
+    position:relative;
+    z-index:0;
+}
+
+#products_is {
+    width:600px;
+    height:282px;
+    position:relative;
+}
+
+#products_view {
+    margin-left:26px;
+}
+
+#products_view .next,#products_view .prev {
+    position:absolute;
+    top:127px;
+    left:0;
+    width:21px;
+    height:0;
+    padding-top:21px;
+    overflow:hidden;
+    display:block;
+    z-index:101;
+}
+#products_view .prev {
+    background:url(../images/arrow-prev.png);
+}
+
+#products_view .next {
+    left:398px;
+    background:url(../images/arrow-next.png);
+}
+
+#products_view .slides_container {
+    width:64%;
+    height:400px;
+    overflow:hidden;
+    float:left;
+    position:relative;
+    /*border:1px solid #dfdfdf;*/
+}
+
+.slides_control img {
+    width: 100%;
+}
+
+#products_view .pagination {
+    background:#dfdfdf;
+    width:75px;
+    padding:5px 5px;
+    float:left;
+    margin-left:65px;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+}
+
+#products_view .pagination li {
+    float:left;
+    margin:2px 4px;
+}
+
+#products_view .pagination li a {
+    display:block;
+    width:55px;
+    height:41px;
+    margin:1px;
+    float:left;
+    background:#f9f9f9;
+}
+
+#products_view .pagination li.current a {
+    border:1px solid #7f7f7f;
+    margin:0;
+}
+
+
+@media screen and (max-width: 600px) {
+    #products_view{
+        margin-left: auto;
+    }
+    #products_view .next {
+        left:340px;
+    }
+    .cart {
+        padding-top: 10px;
+        display: inline-grid;
+        margin-top: 14px;
+    }
+}
+h1   {
+    color: #2f4369;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 15px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/*.demoimg {*/
+    /*width: 500px;*/
+    /*height: 300px;*/
+/*}*/
+
+a.demo { float:left; }
+a img { border:none; }
+img.demo { float:right; }
+.demo {
+    position:relative;
+}
+.loupe {
+    background-color:#444;
+    background:rgba(0, 0, 0, 0.25);
+    border:5px solid rgba(0, 0, 0, 0);
+}
+
+.slides_container { margin:50px auto; position:relative; width:440px;}
+a.demo { float:left; left: 0px !important;}
+a img { border:none; }
+img.demo { float:right; }
+.demo { position:relative; top:0px; }
+.loupe { background-color:#555; background:rgba(0, 0, 0, 0.25); border:5px solid rgba(0, 0, 0, 0); }
+
+.prevclass {
+    float: 0px !important;
+}
